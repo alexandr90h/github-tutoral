@@ -1,2 +1,1 @@
-# github-tutoral
-Приклад створення репозиторію
+# goit-markup-hw-08

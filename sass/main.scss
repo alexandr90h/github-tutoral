@@ -1,0 +1,34 @@
+.main-box {
+  background-color: rgb(43, 22, 18);
+  width: 300px;
+  height: 300px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.round-box {
+  position: relative;
+  background-color: tomato;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  animation: rotateWithOrigin 3000ms linear 1000ms infinite;
+}
+.arrow-box {
+  background-color: white;
+  left: 101px;
+  position: relative;
+  width: 2px;
+  height: 100px;
+  transform-origin: center;
+}
+@keyframes rotateWithOrigin {
+  0% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+
+  100% {
+    transform: rotate3d(0, 0, 1, 360deg);
+  }
+}
