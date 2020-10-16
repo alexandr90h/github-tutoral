@@ -1,3 +1,7 @@
+body {
+  text-align: center;
+}
+
 .main-box {
   background-color: #2b1612;
   width: 300px;
@@ -20,8 +24,6 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  -webkit-animation: rotateWithOrigin 3000ms linear 1000ms infinite;
-          animation: rotateWithOrigin 3000ms linear 1000ms infinite;
 }
 
 .arrow-box {
@@ -34,25 +36,10 @@
           transform-origin: center;
 }
 
-@-webkit-keyframes rotateWithOrigin {
-  0% {
-    -webkit-transform: rotate3d(0, 0, 1, 0deg);
-            transform: rotate3d(0, 0, 1, 0deg);
-  }
-  100% {
-    -webkit-transform: rotate3d(0, 0, 1, 360deg);
-            transform: rotate3d(0, 0, 1, 360deg);
-  }
-}
-
-@keyframes rotateWithOrigin {
-  0% {
-    -webkit-transform: rotate3d(0, 0, 1, 0deg);
-            transform: rotate3d(0, 0, 1, 0deg);
-  }
-  100% {
-    -webkit-transform: rotate3d(0, 0, 1, 360deg);
-            transform: rotate3d(0, 0, 1, 360deg);
-  }
+.change-time-btn {
+  border-radius: 3px;
+  background-color: bisque;
+  border: none;
+  padding: 5px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,3 +1,6 @@
+body {
+  text-align: center;
+}
 .main-box {
   background-color: rgb(43, 22, 18);
   width: 300px;
@@ -13,7 +16,7 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  animation: rotateWithOrigin 3000ms linear 1000ms infinite;
+  // animation: rotateWithOrigin 3000ms linear 1000ms infinite;
 }
 .arrow-box {
   background-color: white;
@@ -22,13 +25,20 @@
   width: 2px;
   height: 100px;
   transform-origin: center;
+  // transform: rotate3d(0, 0, 1, 5deg);
 }
-@keyframes rotateWithOrigin {
-  0% {
-    transform: rotate3d(0, 0, 1, 0deg);
-  }
+.change-time-btn {
+  border-radius: 3px;
+  background-color: bisque;
+  border: none;
+  padding: 5px;
+}
+// @keyframes rotateWithOrigin {
+//   0% {
+//     transform: rotate3d(0, 0, 1, 0deg);
+//   }
 
-  100% {
-    transform: rotate3d(0, 0, 1, 360deg);
-  }
-}
+//   100% {
+//     transform: rotate3d(0, 0, 1, 360deg);
+//   }
+// }
