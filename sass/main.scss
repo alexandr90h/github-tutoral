@@ -25,7 +25,8 @@ body {
   width: 2px;
   height: 100px;
   transform-origin: center;
-  // transform: rotate3d(0, 0, 1, 5deg);
+  transform-origin: bottom center;
+  transform: rotate3d(0, 0, 1, 0deg);
 }
 .change-time-btn {
   border-radius: 3px;
